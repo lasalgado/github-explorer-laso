@@ -3,11 +3,44 @@
 This project was created to display topics related to a given term,
 utilizing the GitHub GraphQL API.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+
+This application uses ReactJS to communicate with the GitHub GraqphQL API, and display the related topics and to click on those related topics to display stargarzers for each topic.
+
+This application implements basic styling in order to have an initial layout with a functional application.
+
+If more functionalities are required the path to follow will be to have a Minimum Viable Product (MVP) in order to achieve enough features to provide the required functionalities and increase the application capabilities on each development iteration.
+
+This application includes the following functionalities:
+
+* Searching topics given by the user entry.
+* Display the number of stargazers a found topic has.
+* Display a list of the first 10 related topics
+* Click on a related topic so it becomes the search term to look at github for stargarzers.
+
+## Frameworks and Libraries
+
+* [ReactJS] - A JavaScript library for building user interfaces
+* [ApolloClient] - Comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL
+* [Reactstrap] - React component library for Bootstrap
+
+All libraries ans utilities are included at the `package.json` file, so no need to install them separately.t
+
+## Installation
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and tyhe available scripts to run in development mode, to build or to test come from that project.
+
+In the project directory, to begin installation
+
+Run the following command that will install all libraries and dependecies needed for the project.
+```
+npm install
+```
+
+Once the installation process ends, you can continue executing any of the scripts available, to rtun in development mode or to generate a final minfied version.
 
 ## Available Scripts
 
-In the project directory, you can run:
 
 ### `npm start`
 
@@ -42,37 +75,22 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Running the project
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To run the project in development mode, it its just needed to execute one of the available commands above `npm start`.
 
-### Code Splitting
+Once the command is executed, the application will deploy the development server, and will be avaible at `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Roadmap
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
 ## Authors
 
 This project was created by: [Luis Salgado - luis.arturo@points.com](mailto:luis.arturo@points.com)
+
+
+[ReactJS]: <https://reactjs.org/>
+[ApolloClient]: <https://www.apollographql.com/docs/#apollo-client>
+[Reactstrap]: <https://reactstrap.github.io/>

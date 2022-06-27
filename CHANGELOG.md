@@ -10,4 +10,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Added changelog file and modification to initial README file.
 - Installation and configuration of Apollo Client to use GraphQL.
-- Create 
+- Added input and search button for topics.
+- Added section to render list of results and link to search related topics.
+- Added basic styling to the application.
