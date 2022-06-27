@@ -34,10 +34,27 @@ In the project directory, to begin installation
 
 Run the following command that will install all libraries and dependecies needed for the project.
 ```
-npm install
+    npm install
 ```
 
-Once the installation process ends, you can continue executing any of the scripts available, to rtun in development mode or to generate a final minfied version.
+Once the command finishes successfully, create a file name `.env` based on the `.env.example` file, and complete the following information.
+
+Inside you can find the following variables:
+
+```
+    REACT_APP_GITHUB_GRAPHQL_API_URL
+```
+
+This variable indicates the url for the GitHubA GrphQL API and it is used at every requests made to the API.
+
+```
+    REACT_APP_GITHUB_TOKEN
+```
+
+This variable sets the authorization token that grants permission to access the API. To obtain a a token, refer to the next article [Create a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+
+
+Once the installation process ends and the environment file has been created, you can continue by executing any of the scripts available, to run in development mode or to generate a final minfied version.
 
 ## Available Scripts
 
@@ -84,7 +101,16 @@ Once the command is executed, the application will deploy the development server
 
 ## Roadmap
 
+* Error management can be improved to take into consideration communication errors with the API, unexpected response values and user input entrance to ensure the values used are validated before being sent to the API.
+* Code structuring could improve once the application increses functionalities by separating concerns of the main component `Home` which basically is performing the main task to communicate with the API.
+* Visual styling can be improve to give and appearance more aesthetic based mainly on how the information is more useful to the user, to emphasize the more critical information.
+* Unit tests can be applied in the future to give more stability throughout the development cycle. For this application we can create unit tests to ensure the UI is rendering messages correctly, simulate bad responses from the API and detect unwanted beahaviors, tests different data as if it would have been provided wrongly by the API.
 
+## Limitations
+
+* On this version of the application I haven´t added unit tests as I have not enought experience doing so and would need more time to apply them to the project.
+* The application only display the related topics given by the search term and the stargazers count to that topic. Guided by the GitHub API the related topics is olny showing the first 10 values it can find.
+* 
 
 ## Authors
 
