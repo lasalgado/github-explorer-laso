@@ -114,7 +114,7 @@ Once the command is executed, the application will deploy the development server
 
 ## Authors
 
-This project was created by: [Luis Salgado - luis.arturo@points.com](mailto:luis.arturo@points.com)
+This project was created by: [Luis Salgado - luis.salgado@encora.com](mailto:luis.salgado@encora.com)
 
 
 [ReactJS]: <https://reactjs.org/>
